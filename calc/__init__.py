@@ -2,7 +2,16 @@ import numpy as np
 
 
 def add(a, b):
-    return a - b
+    """Returns the sum of two integers, a and b.
+
+    Parameters
+    ----------
+    a : int
+        First number to be added.
+    b : int
+        Second number to be added.
+    """
+    return a + b
 
 def subtract(a, b):
     return 0
